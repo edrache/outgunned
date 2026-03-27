@@ -1,0 +1,62 @@
+# {{ character.name }}
+
+**Book:** {{ character.book }}
+**Generated:** {{ character.generated_at }}
+
+## Identity
+
+- **Role:** {{ character.role }}
+- **Trope:** {{ character.trope }}
+
+{% if character.role_description_pl %}
+## Role Notes
+
+{{ character.role_description_pl }}
+{% endif %}
+
+{% if character.trope_description_pl or character.trope_bonus %}
+## Trope Notes
+
+{% if character.trope_description_pl %}
+{{ character.trope_description_pl }}
+{% endif %}
+{% if character.trope_bonus %}
+
+**Bonus:** {{ character.trope_bonus }}
+{% endif %}
+{% endif %}
+
+{% if character.stats %}
+## Stats
+
+{% for stat, value in character.stats.items() %}
+- **{{ stat|title }}:** {{ value }}
+{% endfor %}
+{% endif %}
+
+{% if character.skill_points %}
+## Skills
+
+{% for skill in character.skill_points %}
+- {{ skill }}
+{% endfor %}
+{% endif %}
+
+{% if character.gear %}
+## Gear
+
+{% for item in character.gear %}
+- {{ item }}
+{% endfor %}
+{% endif %}
+
+## Feats
+
+{% for feat in feats_data %}
+### {{ feat.name }}
+
+{{ feat.description_pl }}
+
+**Effect:** {{ feat.effect }}
+
+{% endfor %}
