@@ -1,0 +1,191 @@
+[
+  {
+    "id": "bad-to-the-bone",
+    "name": "Bad to the Bone",
+    "book": "outgunned",
+    "description_pl": "Jesteś wyraźnym problemem. Arogancki, kłopotliwy i zepsuty do szpiku kości — przynajmniej tak cię postrzegają inni. W głębi duszy może tylko szukasz okazji, żeby zrobić coś właściwego.",
+    "bonus": "Attribute: Nerves or Crime. Skills: Force, Stunt, Drive, Shoot, Flirt, Style, Dexterity, Streetwise. Feat: Choose one from Knife Thrower, Parkour, Proven Driver, Shadow."
+  },
+  {
+    "id": "cheater",
+    "name": "Cheater",
+    "book": "outgunned",
+    "description_pl": "Kłamiesz dla pracy, dla zabawy lub z konieczności. W każdym razie kłamiesz dobrze, często i bez trudu. Ufanie ci to ryzykowna decyzja, ale wiesz jak być przekonujący.",
+    "bonus": "Attribute: Smooth or Crime. Skills: Stunt, Cool, Shoot, Speech, Style, Dexterity, Stealth, Streetwise. Feat: Choose one from Pickpocket, Lockpick, Shadow, Silver Tongue."
+  },
+  {
+    "id": "cool-but-distressed",
+    "name": "Cool but Distressed",
+    "book": "outgunned",
+    "description_pl": "Twój dom jest w kompletnym nieładzie, a ty chodzisz z opuszczoną głową, rozmyślając o traumatycznej przeszłości między jednym papierosem a drugim. Jesteś bałaganem... ale jednocześnie niesamowicie cool.",
+    "bonus": "Attribute: Nerves or Smooth. Skills: Fight, Cool, Drive, Shoot, Flirt, Detect, Know, Streetwise. Feat: Choose one from Detective, Gunslinger, Proven Driver, Silver Tongue."
+  },
+  {
+    "id": "diehard",
+    "name": "Diehard",
+    "book": "outgunned",
+    "description_pl": "Nieważne ile razy cię powalą na ziemię — zawsze wstajesz, by walczyć o to, w co wierzysz. Kiedy gra się robi twarda i napięcie rośnie, zawsze dajesz z siebie wszystko. Tak po prostu jesteś skonstruowany.",
+    "bonus": "Attribute: Brawn or Nerves. Skills: Endure, Force, Fight, Cool, Drive, Shoot, Leadership, Heal. Feat: Choose one from Gunslinger, Hard to Kill, Martial Arts, Military Bg."
+  },
+  {
+    "id": "free-spirit",
+    "name": "Free Spirit",
+    "book": "outgunned",
+    "description_pl": "Nikt ci nie mówi co masz robić. Jesteś wolnym duchem i zawsze postępujesz zgodnie z sercem. Temperamentalny i zbuntowany, nie znosisz wykonywać rozkazów ani trzymać się planu. Wolisz improwizować.",
+    "bonus": "Attribute: Brawn or Crime. Skills: Fight, Stunt, Drive, Survival, Style, Fix, Stealth, Streetwise. Feat: Choose one from Artist, Parkour, Pickpocket, That's All?."
+  },
+  {
+    "id": "genius-bruiser",
+    "name": "Genius Bruiser",
+    "book": "outgunned",
+    "description_pl": "Masz błyskotliwy umysł w ciele kulturysty. Jesteś tak duży i umięśniony, jak inteligentny i wykształcony. Żywy paradoks — wolisz działać sprytnie, ale gdy trzeba, doskonale radzisz sobie w bójce.",
+    "bonus": "Attribute: Brawn or Focus. Skills: Endure, Force, Fight, Leadership, Speech, Fix, Know, Heal. Feat: Choose one from Bodybuilder, High Culture, Scientist, That's All?."
+  },
+  {
+    "id": "good-samaritan",
+    "name": "Good Samaritan",
+    "book": "outgunned",
+    "description_pl": "Dla ciebie pomaganie innym to oczywisty wybór. Nieważne czy trzeba przytrzymać drzwi, czy wbiec do płonącego budynku. Gdyby było więcej takich osób jak ty, świat byłby lepszym miejscem.",
+    "bonus": "Attribute: Smooth or Focus. Skills: Endure, Cool, Shoot, Speech, Style, Detect, Heal, Know. Feat: Choose one from Get Down!, High Culture, Physician, Selfless."
+  },
+  {
+    "id": "hot-stuff",
+    "name": "Hot Stuff",
+    "book": "outgunned",
+    "description_pl": "Jesteś elegancki, seksowny i nieodparcie stylowy. Gdy idziesz ulicą, wszyscy się odwracają. Nie można się oprzeć twojemu urokowi — to po prostu niemożliwe.",
+    "bonus": "Attribute: Smooth or Crime. Skills: Fight, Drive, Flirt, Style, Detect, Know, Awareness, Dexterity. Feat: Choose one from Artist, Cash Flow, Heartbreaker, I'll Make a Phone Call."
+  },
+  {
+    "id": "hunk",
+    "name": "Hunk",
+    "book": "outgunned",
+    "description_pl": "Jesteś dość duży, wysoki, umięśniony i atletyczny. Może jesteś twardy i onieśmielający, a może łagodnym gigantem, który potrafi rozładować każdą sytuację. W każdym razie wyraźnie chodzisz na siłownię.",
+    "bonus": "Attribute: Brawn or Smooth. Skills: Endure, Force, Fight, Stunt, Survival, Flirt, Leadership, Style. Feat: Choose one from Bodybuilder, Combo, Intimidation, Selfless."
+  },
+  {
+    "id": "jerk-with-a-heart-of-gold",
+    "name": "Jerk with a Heart of Gold",
+    "book": "outgunned",
+    "description_pl": "Jesteś bezczelny, nierozważny i zbyt pewny siebie. Kpiszz z przyjaciół i flirtujesz z każdym. Czasami jesteś nie do wytrzymania, ale w głębi duszy zależy ci na innych.",
+    "bonus": "Attribute: Brawn or Smooth. Skills: Fight, Survival, Flirt, Speech, Style, Dexterity, Stealth, Streetwise. Feat: Choose one from Heartbreaker, Martial Arts, Parkour, Silver Tongue."
+  },
+  {
+    "id": "last-boy-scout-girl-scout",
+    "name": "Last Boy Scout / Girl Scout",
+    "book": "outgunned",
+    "description_pl": "Takich bohaterów już się nie robi. Masz solidne zasady moralne i staroświeckie wychowanie, które dają ci nostalgiczny urok. Stawiasz czoła misji z determinacją, pozytywnym nastawieniem i szczyptą naiwności.",
+    "bonus": "Attribute: Brawn or Nerves. Skills: Endure, Stunt, Cool, Shoot, Survival, Flirt, Fix, Stealth. Feat: Choose one from Hard to Kill, Hunter, Military Bg, Selfless."
+  },
+  {
+    "id": "leader",
+    "name": "Leader",
+    "book": "outgunned",
+    "description_pl": "Zawsze jesteś na pierwszej linii, gotowy prowadzić przykładem i brać sprawy w swoje ręce. Nawet w najtrudniejszych momentach jesteś stabilny i niezawodny — prawdziwy punkt oparcia dla przyjaciół.",
+    "bonus": "Attribute: Nerves or Focus. Skills: Endure, Cool, Shoot, Survival, Leadership, Detect, Heal, Know. Feat: Choose one from Always Prepared, Get Down!, Head on a Swivel, Mastermind."
+  },
+  {
+    "id": "lone-wolf",
+    "name": "Lone Wolf",
+    "book": "outgunned",
+    "description_pl": "Wobec obcych jesteś szorstki i nieprzyjemny. Trzymasz wszystkich na dystans, ale twoi przyjaciele wiedzą, że mogą na tobie polegać. Żyjesz samotnie, może w bliskim kontakcie z naturą.",
+    "bonus": "Attribute: Brawn or Crime. Skills: Force, Fight, Stunt, Cool, Survival, Flirt, Leadership, Streetwise. Feat: Choose one from Archer, Head on a Swivel, Martial Arts, That's All?."
+  },
+  {
+    "id": "mentor",
+    "name": "Mentor",
+    "book": "outgunned",
+    "description_pl": "Zawsze wiesz co powiedzieć, żeby pocieszyć, poruszyć lub zachęcić innych. Niekiedy jesteś zbyt surowy, ale jesteś właśnie tym ojcowskim autorytetem, którego wszyscy czasem potrzebują.",
+    "bonus": "Attribute: Smooth or Focus. Skills: Endure, Cool, Survival, Leadership, Speech, Heal, Know, Awareness. Feat: Choose one from Always Prepared, Mastermind, Pep Talk, Silver Tongue."
+  },
+  {
+    "id": "neurotic-geek",
+    "name": "Neurotic Geek",
+    "book": "outgunned",
+    "description_pl": "Jesteś prawdziwym nerdem. Komputery, komiksy i popkultura nie mają przed tobą tajemnic. Niestety żaden z twoich przyjaciół nie wie o czym w ogóle mówisz. Po zbyt wielu dniach zamkniętych w pokoju, trochę akcji jest właśnie tym, czego potrzebujesz.",
+    "bonus": "Attribute: Focus or Crime. Skills: Drive, Speech, Detect, Fix, Know, Awareness, Dexterity, Stealth. Feat: Choose one from Hacker, Intuition, Outsmart, Scientist."
+  },
+  {
+    "id": "party-killer",
+    "name": "Party Killer",
+    "book": "outgunned",
+    "description_pl": "Kiedy wszyscy są nakręceni, ty zawsze wiesz jak zepsuć nastrój. Jesteś cyniczny lub skrupulatny i lubisz mieć ostatnie słowo w każdej dyskusji. Pokochanie cię nie jest łatwe.",
+    "bonus": "Attribute: Nerves or Crime. Skills: Force, Stunt, Cool, Shoot, Leadership, Awareness, Stealth, Streetwise. Feat: Choose one from Head on a Swivel, Marksman, Mastermind, Pep Talk."
+  },
+  {
+    "id": "trusty-sidekick",
+    "name": "Trusty Sidekick",
+    "book": "outgunned",
+    "description_pl": "Jest jedna osoba, na której ci naprawdę zależy. Postanowiłeś trzymać się jej boku i stałeś się idealnym przyjacielem, zaufanym towarzyszem wartym więcej niż jakikolwiek skarb.",
+    "bonus": "Attribute: Nerves or Focus. Skills: Drive, Shoot, Survival, Speech, Heal, Fix, Dexterity, Stealth. Feat: Choose one from Get Down!, Mechanic, Physician, Proven Driver."
+  },
+  {
+    "id": "vigilante",
+    "name": "Vigilante",
+    "book": "outgunned",
+    "description_pl": "Obserwowałeś, jak prawo próbowało i nie potrafiło rozwiązać problemów twojego miasta. W końcu zdecydowałeś, że to ty musisz wkroczyć i naprawić sprawy po swojemu. Twoje metody i moralność są w najlepszym razie kontrowersyjne.",
+    "bonus": "Attribute: Brawn or Focus. Skills: Fight, Stunt, Leadership, Detect, Fix, Awareness, Stealth, Streetwise. Feat: Choose one from Intimidation, Martial Arts, Parkour, Shadow."
+  },
+  {
+    "id": "battle-butler",
+    "name": "Battle Butler",
+    "book": "wok",
+    "description_pl": "Co może być lepszego od doskonałego lokaja? Ty. Nienagannie służący i jednocześnie brutalny wojownik. Jesteś wybuchową mieszanką elegancji i ciosów pięścią, praktycznie doskonały na każdą okazję — od balów po bójki w najbardziej podejrzanych barach.",
+    "bonus": "Attribute: Brawn or Nerves. Skills: Endure, Fight, Force, Cool, Leadership, Style, Heal, Know. Feat: Choose one from Bodybuilder, Elegance, Martial Arts, Selfless."
+  },
+  {
+    "id": "gone-rogue",
+    "name": "Gone Rogue",
+    "book": "wok",
+    "description_pl": "Dawno temu byłeś uczciwym obywatelem, wzorowym pracownikiem lub żołnierzem. Potem coś się stało i wszystko się zmieniło. Teraz odwróciłeś się od przeszłości i od całego cholernego społeczeństwa. Dbasz tylko o siebie.",
+    "bonus": "Attribute: Nerves or Crime. Skills: Fight, Force, Cool, Drive, Survival, Fix, Dexterity, Streetwise. Feat: Choose one from Gunslinger, Military Bg, Pass the Buck, Proven Driver."
+  },
+  {
+    "id": "great-performer",
+    "name": "Great Performer",
+    "book": "wok",
+    "description_pl": "Poświęciłeś życie ćwiczeniu i doskonaleniu niezwykle delikatnej sztuki. Twoje ciało zostało dosłownie zdeformowane przez niezliczone dni tańca en pointe, kucia marmuru lub śpiewania opery pełną piersią.",
+    "bonus": "Attribute: Brawn or Smooth. Skills: Endure, Fight, Stunt, Flirt, Style, Heal, Dexterity, Stealth. Feat: Choose one from Artist, Knife Thrower, Master of Disguise, Parkour."
+  },
+  {
+    "id": "honorable-demon",
+    "name": "Honorable Demon",
+    "book": "wok",
+    "description_pl": "W twojej duszy żyją dwa stworzenia. Z jednej strony jesteś niepohamowaną furią, brutalnym demonem, który nie cofnie się przed niczym. Z drugiej przestrzegasz surowego kodeksu moralnego i cenisz szacunek i honor ponad wszystko.",
+    "bonus": "Attribute: Brawn or Crime. Skills: Endure, Fight, Force, Cool, Leadership, Style, Know, Stealth. Feat: Choose one from Determination, Elegance, Knife Thrower, Selfless."
+  },
+  {
+    "id": "just-wicked",
+    "name": "Just Wicked",
+    "book": "wok",
+    "description_pl": "Jesteś najlepszy w tym, co robisz, nawet jeśli to, co robisz, nie jest ładne. Zabijanie może być trudne dla innych, ale dla ciebie zawsze było czymś naturalnym. Nie lubisz tego, ale nauczyłeś się z tym żyć. Jesteś cholernym straszydłem.",
+    "bonus": "Attribute: Brawn or Nerves. Skills: Endure, Fight, Stunt, Cool, Shoot, Flirt, Leadership, Stealth. Feat: Choose one from Bad Name, Determination, Gun Fu, Shadow."
+  },
+  {
+    "id": "magnificent-bastard",
+    "name": "Magnificent Bastard",
+    "book": "wok",
+    "description_pl": "Kłamiesz bez wahania, sprawiasz problemy przyjaciołom i bierzesz co chcesz bez pytania. Teoretycznie jesteś nie do zniesienia, ale wszyscy nie mogą się powstrzymać od pokochania cię, bo jesteś po prostu świetny z ludźmi. Twoi przyjaciele nie zamieniliby cię na nic — ty natomiast oddałbyś ich za dobre kolacje.",
+    "bonus": "Attribute: Smooth or Crime. Skills: Fight, Drive, Flirt, Leadership, Speech, Style, Know, Dexterity. Feat: Choose one from Always Prepared, Pass the Buck, Proven Driver, Silver Tongue."
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "book": "wok",
+    "description_pl": "Wszyscy gonią za najnowszymi trendami i technologiami. Nie ty. Kochasz piękne, staromodne rzeczy, bezczasową elegancję epoki, która wydawała ci się prostsza i lepsza. Może po prostu urodziłeś się w złym roku.",
+    "bonus": "Attribute: Smooth or Focus. Skills: Cool, Drive, Shoot, Flirt, Leadership, Style, Detect, Know. Feat: Choose one from Elegance, Military Bg, Outsmart, Sword Fighter."
+  },
+  {
+    "id": "professional",
+    "name": "Professional",
+    "book": "wok",
+    "description_pl": "Trenujesz, planujesz misje, pijesz mleko bo jest zdrowe i jesz marchewkę bo dobrze wpływa na wzrok. Lubisz robić rzeczy właściwie. Wchodzisz, wykonujesz robotę i znikasz nie zostawiając śladu. To jasne, że jesteś profesjonalistą.",
+    "bonus": "Attribute: Nerves or Focus. Skills: Drive, Shoot, Style, Detect, Fix, Awareness, Dexterity, Stealth. Feat: Choose one from Detective, Hacker, Marksman, Scientist."
+  },
+  {
+    "id": "saint",
+    "name": "Saint",
+    "book": "wok",
+    "description_pl": "Jest jasne, że jesteś osobą wiary. Jesteś spokojny, opanowany i wyciszony, z pamięci cytujesz fragmenty świętych pism i być może złożyłeś śluby. Ale za tą świętobliwą fasadą kryje się wojowniczy duch i kto wie jakie jeszcze mroczne tajemnice.",
+    "bonus": "Attribute: Focus or Smooth. Skills: Cool, Drive, Shoot, Leadership, Speech, Style, Heal, Know. Feat: Choose one from Determination, Gun Fu, Pep Talk, Silver Tongue."
+  }
+]

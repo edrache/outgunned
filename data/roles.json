@@ -1,0 +1,275 @@
+[
+  {
+    "id": "the-commando",
+    "name": "The Commando",
+    "book": "outgunned",
+    "description_pl": "Elitarny żołnierz, agent SWAT lub weteran sił specjalnych. Komandos jest wykuty w ogniu walki i stawia czoła niebezpieczeństwu bez mrugnięcia okiem. Nikt nie staje mu na drodze.",
+    "stats": {
+      "brawn": 1,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Force", "Cool", "Shoot", "Survival", "Leadership", "Fix", "Awareness", "Stealth"],
+    "starting_feats": ["Hard to Kill", "Hunter", "Intimidation", "Marksman", "Military Background", "That's All?"],
+    "choose_feats": 2,
+    "gear": ["Knife", "Telephone or Radio", "Weapon of choice"]
+  },
+  {
+    "id": "the-fighter",
+    "name": "The Fighter",
+    "book": "outgunned",
+    "description_pl": "Mistrz sztuk walki, bokser lub ekspert samoobrony. Fighter rozwiązuje wszystkie problemy gołymi pięściami i jest w stanie pokonać uzbrojonego przeciwnika bez jednej broni. Jego ciosy nigdy nie chybiają.",
+    "stats": {
+      "brawn": 1,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Force", "Stunt", "Cool", "Flirt", "Leadership", "Style", "Heal", "Dexterity"],
+    "starting_feats": ["Combo", "Counter", "Flying Kick", "Hard to Kill", "Martial Arts", "Punch Reload"],
+    "choose_feats": 2,
+    "gear": ["One 1$ item of your choice"]
+  },
+  {
+    "id": "the-ace",
+    "name": "The Ace",
+    "book": "outgunned",
+    "description_pl": "Kierowca wyścigowy, motocyklista, pilot lub kurier. Asy żyją w ciągłym pędzie i czują się prawdziwie żywi tylko podczas elektryzujących pościgów z dużą prędkością. Zawsze muszą być pierwsi.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 1,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Stunt", "Cool", "Drive", "Shoot", "Flirt", "Style", "Fix", "Awareness", "Dexterity", "Streetwise"],
+    "starting_feats": ["Car Jump", "Crazy Stunt", "Full Throttle!", "Mechanic", "Proven Driver", "Spinout"],
+    "choose_feats": 2,
+    "gear": ["Ride with Speed 1", "Pistol or Shotgun"]
+  },
+  {
+    "id": "the-agent",
+    "name": "The Agent",
+    "book": "outgunned",
+    "description_pl": "Policjant, agent FBI, strażak lub tajny agent. Agenci mają nerwy ze stali i zawsze są gotowi wkroczyć do akcji, gdy wzywa ich obowiązek. Są odważnymi obrońcami prawa i porządku.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 1,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Stunt", "Cool", "Drive", "Shoot", "Leadership", "Detect", "Heal", "Awareness"],
+    "starting_feats": ["Get Down!", "Gunslinger", "Hard to Kill", "Lie to Me", "Pep Talk", "Selfless"],
+    "choose_feats": 2,
+    "gear": ["Pistol", "Handcuffs", "Badge", "Telephone or Radio"]
+  },
+  {
+    "id": "the-face",
+    "name": "The Face",
+    "book": "outgunned",
+    "description_pl": "Zawodowy oszust, celebryta, influencer lub bogaty przedsiębiorca. Face wychodzi z każdej opresji dzięki uroczemu uśmiechowi i srebrzyste językowi. Nie potrzebuje siły fizycznej, by zdobyć to, czego pragnie.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 1,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Flirt", "Leadership", "Speech", "Style", "Detect", "Heal", "Know", "Dexterity", "Stealth", "Streetwise"],
+    "starting_feats": ["Artist", "Cash Flow", "Heartbreaker", "High Culture", "Master of Disguise", "Silver Tongue"],
+    "choose_feats": 2,
+    "gear": ["Elegant Clothes", "Precious item of choice (like a piece of jewelry or a golden lighter)"]
+  },
+  {
+    "id": "the-nobody",
+    "name": "The Nobody",
+    "book": "outgunned",
+    "description_pl": "Zwykły człowiek, rodzic, sąsiad z naprzeciwka lub kasjer. Nikt nie prosił ich o bycie bohaterem, ale gdy przyszło co do czego, okazali się silniejsi, niż ktokolwiek się spodziewał. Czasem to właśnie przeciętna osoba robi różnicę.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 1,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Fight", "Shoot", "Survival", "Leadership", "Speech", "Detect", "Fix", "Heal", "Know", "Dexterity"],
+    "starting_feats": ["I'll Make a Phone Call", "Lie to Me", "Mechanic", "Physician", "Proven Driver", "Silver Tongue"],
+    "choose_feats": 2,
+    "gear": ["1$ item of choice", "or Old ride with Speed 0"]
+  },
+  {
+    "id": "the-brain",
+    "name": "The Brain",
+    "book": "outgunned",
+    "description_pl": "Profesor uniwersytetu, naukowiec, haker lub zbuntowany geniusz. Brain to myślący umysł grupy, obdarzony wiedzą i intuicją jak nikt inny. Potrafi opracować plan wyjścia z każdej sytuacji.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 1,
+      "crime": 0
+    },
+    "skill_points": ["Drive", "Leadership", "Speech", "Style", "Detect", "Fix", "Heal", "Know", "Dexterity", "Stealth"],
+    "starting_feats": ["Hacker", "High Culture", "Intuition", "Mastermind", "Outsmart", "Scientist"],
+    "choose_feats": 2,
+    "gear": ["Portable Computer", "Notebook", "Pencil"]
+  },
+  {
+    "id": "the-sleuth",
+    "name": "The Sleuth",
+    "book": "outgunned",
+    "description_pl": "Prywatny detektyw, inspektor policji, dziennikarz śledczy lub łowca nagród. Sleuth zawsze tropi ślad i prędzej czy później rozwiąże każdą zagadkę. Zna właściwe pytania i wie, które guziki nacisnąć.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 1,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Stunt", "Cool", "Drive", "Shoot", "Detect", "Know", "Awareness", "Stealth", "Streetwise"],
+    "starting_feats": ["Detective", "I'll Make a Phone Call", "Intimidation", "Marksman", "Reporter", "Shadow"],
+    "choose_feats": 2,
+    "gear": ["1$ item of choice", "Pistol or Rifle or Shotgun"]
+  },
+  {
+    "id": "the-criminal",
+    "name": "The Criminal",
+    "book": "outgunned",
+    "description_pl": "Złodziej, eks-skazaniec, paser lub członek gangu. Kryminaliści spędzają życie poza prawem, bogacąc się cudzym kosztem. Mimo to, gdy przychodzi co do czego, mogą okazać się prawdziwymi bohaterami.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 1
+    },
+    "skill_points": ["Force", "Stunt", "Drive", "Shoot", "Survival", "Speech", "Awareness", "Dexterity", "Stealth", "Streetwise"],
+    "starting_feats": ["Always Prepared", "Gunslinger", "I'll Make a Phone Call", "Lockpick", "Pickpocket", "Silver Tongue"],
+    "choose_feats": 2,
+    "gear": ["Pistol", "Knife or Lockpicking Set or Handcuffs"]
+  },
+  {
+    "id": "the-spy",
+    "name": "The Spy",
+    "book": "outgunned",
+    "description_pl": "Agent służb specjalnych, infiltrator lub szpieg obcego mocarstwa. Szpiedzy są zawsze o krok przed wszystkimi, eleganccy i śmiertelnie niebezpieczni. Noszą ze sobą tajemnice zbyt groźne, by wpaść w niepowołane ręce.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 1
+    },
+    "skill_points": ["Endure", "Fight", "Stunt", "Cool", "Drive", "Shoot", "Flirt", "Detect", "Awareness", "Stealth"],
+    "starting_feats": ["Gunslinger", "Heartbreaker", "Martial Arts", "Master of Disguise", "Parkour", "Shadow"],
+    "choose_feats": 2,
+    "gear": ["Elegant Clothes", "Pistol with Silencer", "Item of Choice"]
+  },
+  {
+    "id": "the-samurai",
+    "name": "The Samurai",
+    "book": "wok",
+    "description_pl": "Szermierz podążający kodeksem honoru, miejski ronin lub członek Yakuzy. Samurai poświęcił całe życie studiowaniu drogi miecza i jest twardszy niż stal. Związany wiekowymi tradycjami, walczy jak wojownik z innej epoki.",
+    "stats": {
+      "brawn": 1,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Stunt", "Cool", "Leadership", "Style", "Heal", "Awareness", "Dexterity", "Stealth"],
+    "starting_feats": ["Combo", "Deflect Bullets", "Determination", "Feint", "Sword Fighter", "Whirlwind"],
+    "choose_feats": 2,
+    "gear": ["Sword (Katana)", "One 1$ item of choice"]
+  },
+  {
+    "id": "the-hired-gun",
+    "name": "The Hired Gun",
+    "book": "wok",
+    "description_pl": "Samotny najemnik, płatny zabójca lub wyzwoliciel z pistoletem w ręku. Hired Gun wynajmuje swoje śmiertelne umiejętności temu, kto zapłaci najwięcej. Żadna robota nie jest dla niego zbyt ciężka ani zbyt brudna.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 1,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Force", "Stunt", "Cool", "Drive", "Shoot", "Leadership", "Awareness", "Stealth"],
+    "starting_feats": ["Bad Name", "Endure Pain", "Gun Fu", "Gunslinger", "Hard to Kill", "Marksman"],
+    "choose_feats": 2,
+    "gear": ["Pistol", "Telephone", "Weapon of choice"]
+  },
+  {
+    "id": "the-aristocrat",
+    "name": "The Aristocrat",
+    "book": "wok",
+    "description_pl": "Potomek szlachetnego rodu, bogaty dziedzic lub członek ważnej rodziny przestępczej. Arystokrata jest elegancki i zawsze panuje nad sytuacją, wiedząc, które sznurki pociągnąć, by pokonać wrogów. Żyje w luksusie i oczekuje najlepszego.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 1,
+      "focus": 0,
+      "crime": 0
+    },
+    "skill_points": ["Drive", "Shoot", "Flirt", "Leadership", "Speech", "Style", "Detect", "Heal", "Know", "Awareness"],
+    "starting_feats": ["Bad Name", "Cash Flow", "Elegance", "Heartbreaker", "High Culture", "Savoir Faire"],
+    "choose_feats": 2,
+    "gear": ["Elegant Clothes", "Your choice of items adding up to 5$"]
+  },
+  {
+    "id": "the-dog-trainer",
+    "name": "The Dog Trainer",
+    "book": "wok",
+    "description_pl": "Łowca nagród z czworonożnym partnerem, agent jednostki canine lub włóczęga ze swoim nierozłącznym towarzyszem. Dog Trainer wchodzi do akcji razem z najlepszym przyjacielem, a ich sekret sukcesu to praca zespołowa i bezwarunkowa miłość.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 1,
+      "crime": 0
+    },
+    "skill_points": ["Endure", "Fight", "Stunt", "Cool", "Survival", "Leadership", "Detect", "Heal", "Awareness", "Streetwise"],
+    "starting_feats": ["Attack Dog", "Beware of the Owner", "Catch!", "Physician", "Rescue", "Sniffer"],
+    "choose_feats": 2,
+    "gear": ["Trained Dog", "Pistol or Rifle or Shotgun"]
+  },
+  {
+    "id": "the-derelict",
+    "name": "The Derelict",
+    "book": "wok",
+    "description_pl": "Włóczęga żyjący na ulicy, zaniedbalec lub tak zwany odpad społeczny. Derelict jest bohaterem dalece odbiegającym od ideałów porządnych ludzi — wielu z nich to prawdziwi bezdomni. Jednak wszyscy kryją w sobie więcej, niż widać na pierwszy rzut oka.",
+    "stats": {
+      "brawn": 0,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 1
+    },
+    "skill_points": ["Endure", "Shoot", "Survival", "Speech", "Detect", "Know", "Awareness", "Dexterity", "Stealth", "Streetwise"],
+    "starting_feats": ["Expedient", "I'll Make a Phone Call", "Live and Learn", "Pass the Buck", "Pickpocket", "Shadow"],
+    "choose_feats": 2,
+    "gear": ["Nothing"]
+  },
+  {
+    "id": "the-assassin",
+    "name": "The Assassin",
+    "book": "wok",
+    "description_pl": "Skrytobójca żyjący według starożytnego kodeksu lub bezwzględny mściciel. Assassin to Specjalna Rola łącząca w sobie Rolę, Trope i Zawód jednocześnie — rusza się po dachach jak kot i uderza niewidzialnie jak ptak drapieżny. Znika zanim ktokolwiek zdąży zareagować.",
+    "stats": {
+      "brawn": 1,
+      "nerves": 0,
+      "smooth": 0,
+      "focus": 0,
+      "crime": 1
+    },
+    "skill_points": ["Endure", "Fight", "Force", "Stunt", "Cool", "Drive", "Shoot", "Leadership", "Detect", "Fix", "Heal", "Awareness", "Dexterity", "Stealth"],
+    "starting_feats": ["Always Prepared", "Ambush", "Bad Name", "Counter", "Expedient", "Feint", "Knife Thrower", "Leap", "Parkour", "Pickpocket", "Shadow", "Vanish"],
+    "choose_feats": 3,
+    "special_role": true,
+    "gear": ["Concealed Blade"]
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "id": "always-prepared",
+    "name": "Always Prepared",
+    "book": "outgunned",
+    "description_pl": "Zawsze masz asa w rękawie. Jako Szybka Akcja możesz wyciągnąć przydatny przedmiot, informację lub małą broń łatwą do ukrycia.",
+    "effect": "[Quick Action] Take out or retrieve a useful item, a piece of information, or a small, easy-to-hide weapon. Costs 1 Adrenaline."
+  },
+  {
+    "id": "archer",
+    "name": "Archer",
+    "book": "outgunned",
+    "description_pl": "Jesteś nowoczesnym Robin Hoodem — twoje strzały nigdy nie chybiają. Zyskujesz Darmowy Przerzut przy korzystaniu, naprawianiu, ocenianiu lub obsługiwaniu łuku.",
+    "effect": "Gain a Free Re-roll when using, repairing, evaluating, or handling a bow."
+  },
+  {
+    "id": "artist",
+    "name": "Artist",
+    "book": "outgunned",
+    "description_pl": "Popularny lub niezrozumiany, ale wciąż jesteś artystą. Wybierz formę sztuki (taniec, śpiew, malarstwo itp.) i zyskujesz Darmowy Przerzut przy wszystkich rzutach związanych z twoją wybraną dziedziną.",
+    "effect": "Choose an art-form. Gain a Free Re-roll for all rolls regarding your chosen art-form."
+  },
+  {
+    "id": "bodybuilder",
+    "name": "Bodybuilder",
+    "book": "outgunned",
+    "description_pl": "Jesteś duży, silny i umięśniony. Zyskujesz Darmowy Przerzut przy podnoszeniu, noszeniu lub niszczeniu czegoś.",
+    "effect": "Gain a Free Re-roll when lifting, carrying, or breaking something."
+  },
+  {
+    "id": "car-jump",
+    "name": "Car Jump",
+    "book": "outgunned",
+    "description_pl": "Przyspieszasz po prowizorycznej rampie i twój pojazd wyskakuje w powietrze. Wszyscy wstrzymują oddech. Jako Pełna Tura możesz sprawić, że pojazd przeskakuje nad przeszkodą lub barierą, albo zyskujesz +2 Prędkości podczas Pościgu.",
+    "effect": "[Full Turn] While driving, have your ride jump over an obstacle or barrier, or gain +2 Speed during a Chase. Upon landing, the ride loses 1 Armor. Costs 1 Adrenaline."
+  },
+  {
+    "id": "cash-flow",
+    "name": "Cash Flow",
+    "book": "outgunned",
+    "description_pl": "Jesteś ze starego pieniądza lub po prostu masz przy sobie sporo gotówki. Zaczynasz grę z 3 Gotówką i zyskujesz 1 Gotówkę na początku każdej Sesji.",
+    "effect": "Start the game with 3 Cash. Gain 1 Cash at the beginning of each Session, unless imprisoned or lost in the middle of nowhere."
+  },
+  {
+    "id": "combo",
+    "name": "Combo",
+    "book": "outgunned",
+    "description_pl": "Po każdym ciosie natychmiast następuje kolejny, szybszy od poprzedniego. Po trafieniu Wroga możesz wydać 1 Adrenalinę, aby zadać 1 dodatkowy Grit. Możesz kontynuować combo wydając kolejne Adrenaline.",
+    "effect": "After hitting an Enemy, spend 1 Adrenaline to deal 1 additional Grit. Can spend several Adrenaline to continue the combo. Costs 1 Adrenaline per hit."
+  },
+  {
+    "id": "counter",
+    "name": "Counter",
+    "book": "outgunned",
+    "description_pl": "Najlepsza obrona to zawsze dobry atak. Reaguj na atak Wroga rzucając Brawn+Fight zamiast żądanej Umiejętności. Ignorujesz wszystkie -1 z Kondycji i okoliczności.",
+    "effect": "React against an Enemy by rolling Brawn+Fight instead of the requested Skill. Ignore all -1s from Conditions and circumstances. Costs 1 Adrenaline."
+  },
+  {
+    "id": "crazy-stunt",
+    "name": "Crazy Stunt",
+    "book": "outgunned",
+    "description_pl": "To twoja wina, że wynaleźli zastrzeżenia 'nie próbuj tego w domu'. Jako Pełna Tura podczas jazdy możesz wykonać absolutnie szalony manewr, żeby wygrać pościg — ale ryzykujesz zniszczenie pojazdu.",
+    "effect": "[Full Turn] Make an absolutely crazy driving maneuver. Destroy your ride and flip a coin. Heads: Director fills in 1 Need box. Tails: Director fills in 5 Need boxes. If all Need boxes are full, you won the chase. Costs 1 Adrenaline."
+  },
+  {
+    "id": "detective",
+    "name": "Detective",
+    "book": "outgunned",
+    "description_pl": "Miejsce zbrodni przemawia do ciebie. Gdzie inni widzą chaos, ty wiesz jak znaleźć wskazówkę. Zyskujesz Darmowy Przerzut przy szukaniu wskazówek, śledzeniu śladów lub przeszukiwaniu pomieszczenia.",
+    "effect": "Gain a Free Re-roll when looking for clues, following trails, or searching a room."
+  },
+  {
+    "id": "full-throttle",
+    "name": "Full Throttle!",
+    "book": "outgunned",
+    "description_pl": "Jesteś uzależnionym od prędkości maniakiem żyjącym w szybkim tempie. Kiedy jesteś za kierownicą, ignorujesz kary z Kondycji Zdenerwowania i z Prędkości Maksymalnej. Raz na pościg, gdy osiągasz Prędkość Maksymalną, zyskujesz 1 Adrenalinę.",
+    "effect": "When driving, ignore penalties from the Nervous Condition and from Top Speed. Once per chase, when you reach Top Speed, you gain 1 Adrenaline."
+  },
+  {
+    "id": "flying-kick",
+    "name": "Flying Kick",
+    "book": "outgunned",
+    "description_pl": "Żaden wróg nie jest poza zasięgiem twoich śmiertelnych kopnięć. Atakując Wroga w Bliskim lub Średnim Zasięgu zyskujesz +1 do rzutu. Możesz zawsze atakować Wroga w Bliskim Zasięgu gołymi rękami bez wydawania Adrenaliny.",
+    "effect": "Attack an Enemy within Close or Medium Range, gain +1 to the roll. Additionally, always attack an Enemy within Close Range while bare-handed without spending Adrenaline. Costs 1 Adrenaline."
+  },
+  {
+    "id": "get-down",
+    "name": "Get Down!",
+    "book": "outgunned",
+    "description_pl": "Chwytasz przyjaciela i odciągasz go od niebezpieczeństwa sekundę przed katastrofą. Jako Pełna Tura ty i inny Bohater szybko ukrywacie się, uchylacie się przed kulami lub unikacie potrącenia bez konieczności rzucania kośćmi.",
+    "effect": "[Full Turn] You and another Hero quickly hide, dodge bullets, or avoid being run over without rolling dice. Costs 1 Adrenaline."
+  },
+  {
+    "id": "gunslinger",
+    "name": "Gunslinger",
+    "book": "outgunned",
+    "description_pl": "Pistolet to przedłużenie twojego ramienia. Każdy strzał trafia w cel. Zyskujesz Darmowy Przerzut przy korzystaniu, naprawianiu, ocenianiu lub obsługiwaniu pistoletu lub rewolweru.",
+    "effect": "Gain a Free Re-roll when using, repairing, evaluating, or handling a pistol or revolver."
+  },
+  {
+    "id": "hacker",
+    "name": "Hacker",
+    "book": "outgunned",
+    "description_pl": "Jesteś czarodziejem komputerowym. Żaden firewall cię nie zatrzyma. Zyskujesz Darmowy Przerzut przy wszystkich rzutach dotyczących komputerów, hakowania systemu lub obchodzenia zabezpieczeń IT.",
+    "effect": "Gain a Free Re-roll for all rolls about computers, to hack a system or to bypass IT security measures."
+  },
+  {
+    "id": "hard-to-kill",
+    "name": "Hard to Kill",
+    "book": "outgunned",
+    "description_pl": "Nieważne co na ciebie rzucą — ty wciąż wstajesz. Gdy wypełniasz Złe Pole, zyskujesz 1 Adrenalinę i +1 do następnego rzutu.",
+    "effect": "When you fill in your Bad Box, you gain 1 Adrenaline and +1 to your next roll."
+  },
+  {
+    "id": "head-on-a-swivel",
+    "name": "Head on a Swivel",
+    "book": "outgunned",
+    "description_pl": "Zawsze widzisz nadchodzące zagrożenie. Zyskujesz Darmowy Przerzut przy uprzedzaniu niebezpieczeństwa lub zasadzek, albo przy próbie zlokalizowania czyhających wrogów.",
+    "effect": "Gain a Free Re-roll when preempting dangers or ambushes, or trying to locate lurking enemies."
+  },
+  {
+    "id": "heartbreaker",
+    "name": "Heartbreaker",
+    "book": "outgunned",
+    "description_pl": "Nikt nie może oprzeć się twojemu przeklętemu uśmiechowi. Zyskujesz Darmowy Przerzut przy uwodzeniu lub robieniu dobrego wrażenia na innych.",
+    "effect": "Gain a Free Re-roll when seducing or making a good impression on others."
+  },
+  {
+    "id": "high-culture",
+    "name": "High Culture",
+    "book": "outgunned",
+    "description_pl": "Byłeś wykształcony i to widać. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu przypomnienie sobie informacji z kultury ogólnej, literatury, historii i geografii.",
+    "effect": "Gain a Free Re-roll for all rolls to recall information about general culture, literature, history, and geography."
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "book": "outgunned",
+    "description_pl": "Masz instynkt drapieżnika i wiesz jak poruszać się w dziczy. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu śledzenie lub polowanie na zwierzę, odnalezienie drogi lub ukrycie się w terenie.",
+    "effect": "Gain a Free Re-roll for all rolls made to follow or hunt an animal, to find your bearings, or to hide while in the wilds."
+  },
+  {
+    "id": "intimidation",
+    "name": "Intimidation",
+    "book": "outgunned",
+    "description_pl": "Jesteś zimnym twardzielem. Naprawdę przerażającym. Zyskujesz Darmowy Przerzut przy zastraszaniu lub przesłuchiwaniu kogoś.",
+    "effect": "Gain a Free Re-roll when intimidating or interrogating somebody."
+  },
+  {
+    "id": "intuition",
+    "name": "Intuition",
+    "book": "outgunned",
+    "description_pl": "Zauważasz ukryte szczegóły, które inni przeoczają. Jako Szybka Akcja poproś Dyrektora o wskazówkę lub sugestię, albo znajdź Słabe Miejsce Wroga.",
+    "effect": "[Quick Action] Ask the Director to give you a clue or suggestion, or find the Weak Spot of an Enemy. Costs 1 Adrenaline."
+  },
+  {
+    "id": "ill-make-a-phone-call",
+    "name": "I'll Make a Phone Call",
+    "book": "outgunned",
+    "description_pl": "Masz kontakty, przyjaciela lub przysługę do odebrania. To tylko jeden telefon. Jako Pełna Tura dzwonisz do jednego ze swoich kontaktów prosząc o informację, przysługę, transport lub do 3 Gotówki.",
+    "effect": "[Full Turn] Call one of your contacts asking for a piece of information, a favor, a ride, or up to 3 Cash. You gain whatever you asked for during the next Time-Out. Costs 1 Adrenaline."
+  },
+  {
+    "id": "knife-thrower",
+    "name": "Knife Thrower",
+    "book": "outgunned",
+    "description_pl": "Noże, topory, shurikeny, karty do gry. Jeśli możesz to trzymać, możesz to rzucić. Zyskujesz +1 przy używaniu broni miotanej.",
+    "effect": "Gain +1 when using a throwing weapon."
+  },
+  {
+    "id": "lie-to-me",
+    "name": "Lie to Me",
+    "book": "outgunned",
+    "description_pl": "Rozszyfrowujesz rozmówcę w mgnieniu oka. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu zrozumienie czyichś intencji lub wykrycie kłamstw.",
+    "effect": "Gain a Free Re-roll for all rolls made to understand somebody's intentions or to spot lies."
+  },
+  {
+    "id": "lockpick",
+    "name": "Lockpick",
+    "book": "outgunned",
+    "description_pl": "Drzwi, sejfy i skarbce nie mają żadnych szans na twoje chirurgicznie precyzyjne metody. Zyskujesz Darmowy Przerzut przy próbie otwarcia każdego zamka, drzwi lub zamkniętego pojemnika.",
+    "effect": "Gain a Free Re-roll when trying to pick any lock, door, or closed container."
+  },
+  {
+    "id": "marksman",
+    "name": "Marksman",
+    "book": "outgunned",
+    "description_pl": "Jest wiele karabinów takich jak twój, ale nikt nie używa karabinu tak jak ty. Zyskujesz Darmowy Przerzut przy korzystaniu, naprawianiu, ocenianiu lub obsługiwaniu karabinu, strzelby, pistoletu maszynowego lub karabinu maszynowego.",
+    "effect": "Gain a Free Re-roll when using, repairing, evaluating, or handling a rifle, shotgun, sub-machine or machine gun."
+  },
+  {
+    "id": "martial-arts",
+    "name": "Martial Arts",
+    "book": "outgunned",
+    "description_pl": "Znasz kung fu, muay thai, boks lub inny styl walki. Zyskujesz Darmowy Przerzut przy wszystkich Rzutach Akcji i Reakcji podczas walki bez broni.",
+    "effect": "Gain a Free Re-roll for all Action and Reaction Rolls made when fighting unarmed."
+  },
+  {
+    "id": "master-of-disguise",
+    "name": "Master of Disguise",
+    "book": "outgunned",
+    "description_pl": "Wiesz jak zmienić wygląd i ukryć tożsamość. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu przebranie się, pozostanie niezauważonym lub przyjęcie czyjejś tożsamości.",
+    "effect": "Gain a Free Re-roll for all rolls made to disguise yourself, to go unnoticed, or to take on someone else's identity."
+  },
+  {
+    "id": "mastermind",
+    "name": "Mastermind",
+    "book": "outgunned",
+    "description_pl": "Twoje błyskotliwe pomysły pozwalają ci zawsze wyjść na wierzch. Powtórz jeden rzut dowolnego rodzaju. Ignorujesz wszystkie -1 z Kondycji i okoliczności.",
+    "effect": "Repeat one roll of any kind. Ignore all -1s from Conditions and circumstances. Costs 1 Adrenaline."
+  },
+  {
+    "id": "mechanic",
+    "name": "Mechanic",
+    "book": "outgunned",
+    "description_pl": "Wyrosłeś w warsztacie i wiesz wszystko o silnikach. Zyskujesz Darmowy Przerzut przy budowaniu lub naprawianiu Pojazdów i innego sprzętu.",
+    "effect": "Gain a Free Re-roll when building or repairing Rides and other gear."
+  },
+  {
+    "id": "military-background",
+    "name": "Military Background",
+    "book": "outgunned",
+    "description_pl": "Jesteś żołnierzem. Znasz hierarchię wojskową i protokół. Zyskujesz Darmowy Przerzut przy wszystkich rzutach dotyczących wiedzy wojskowej, koordynowania strategii lub przypominania sobie wyszkolenia.",
+    "effect": "Gain a Free Re-roll for all rolls about military knowledge, for coordinating a strategy, or when recalling your training."
+  },
+  {
+    "id": "outsmart",
+    "name": "Outsmart",
+    "book": "outgunned",
+    "description_pl": "Jak zawsze mówisz: pracuj mądrze, nie ciężko! Wykonaj Rzut Akcji lub Reakcji dowolnego rodzaju używając Know zamiast wymaganej Umiejętności.",
+    "effect": "Make an Action or Reaction Roll of any kind using Know instead of the required Skill. Costs 1 Adrenaline."
+  },
+  {
+    "id": "parkour",
+    "name": "Parkour",
+    "book": "outgunned",
+    "description_pl": "Jesteś wolnym biegaczem lub ekspertem od akrobatyki. Nie schodzisz po schodach — przeskakujesz przez całą rampę. Zyskujesz Darmowy Przerzut przy skokach, wykonywaniu akrobatyki lub amortyzowaniu upadku.",
+    "effect": "Gain a Free Re-roll when jumping, performing feats of acrobatics, or breaking a fall."
+  },
+  {
+    "id": "pep-talk",
+    "name": "Pep Talk",
+    "book": "outgunned",
+    "description_pl": "Kiedy gra się robi trudna, wszyscy zbierają się wokół ciebie i zawsze wiesz dokładnie co powiedzieć. Zyskujesz Darmowy Przerzut przy inspirowaniu lub koordynowaniu innych.",
+    "effect": "Gain a Free Re-roll when inspiring or coordinating others."
+  },
+  {
+    "id": "physician",
+    "name": "Physician",
+    "book": "outgunned",
+    "description_pl": "Jesteś pielęgniarką, lekarzem lub ratownikiem medycznym. Z pewnością nie jesteś wrażliwy na widok krwi. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu postawienie diagnozy, operowanie kogoś lub usunięcie fizycznych Kondycji, takich jak Kondycja Ranny.",
+    "effect": "Gain a Free Re-roll for all rolls made to find a diagnosis, to operate on someone, or to remove physical Conditions such as the Hurt Condition."
+  },
+  {
+    "id": "pickpocket",
+    "name": "Pickpocket",
+    "book": "outgunned",
+    "description_pl": "Nie jesteś zwykłym złodziejem — jesteś artystą kradzieży. Zyskujesz Darmowy Przerzut przy kradnięciu czegoś od kogoś.",
+    "effect": "Gain a Free Re-roll when stealing something from somebody."
+  },
+  {
+    "id": "proven-driver",
+    "name": "Proven Driver",
+    "book": "outgunned",
+    "description_pl": "Silniki to twoja pasja. Nie masz sobie równych za kierownicą. Wybierz jeden typ pojazdu (samochody, motocykle, latające itp.) i zyskujesz Darmowy Przerzut przy prowadzeniu, naprawianiu lub ocenianiu pojazdów wybranego typu.",
+    "effect": "Choose one type of ride (cars, bikes, flying, etc.). Gain a Free Re-roll when driving, repairing, or evaluating rides of your chosen type."
+  },
+  {
+    "id": "punch-reload",
+    "name": "Punch Reload",
+    "book": "outgunned",
+    "description_pl": "Po mocnym ciosie zaciskasz pięści i walczysz dalej. Jako Szybka Akcja, raz na walkę, po nieudanym Rzucie Reakcji przeciwko Wrogowi, możesz wstać i natychmiast zyskać 1 Adrenalinę.",
+    "effect": "[Quick Action] Once per combat, after failing a Reaction Roll against an Enemy, stand back up and immediately gain 1 Adrenaline."
+  },
+  {
+    "id": "reporter",
+    "name": "Reporter",
+    "book": "outgunned",
+    "description_pl": "Zawsze jesteś w pogoni za prawdą. Twoje pióro jest potężniejsze od pistoletu. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu przeprowadzenie wywiadu, zdobycie informacji lub znalezienie kontaktów.",
+    "effect": "Gain a Free Re-roll for all rolls made to interview people, gain information, and find contacts."
+  },
+  {
+    "id": "scientist",
+    "name": "Scientist",
+    "book": "outgunned",
+    "description_pl": "To zadziała! I wiesz dokładnie jak. Wybierz dziedzinę STEM (inżynierię, chemię, botanikę itp.) i zyskujesz Darmowy Przerzut przy wszystkich rzutach dotyczących twojej wybranej dziedziny.",
+    "effect": "Choose a STEM discipline (engineering, chemistry, botany, etc.). Gain a Free Re-roll for all rolls regarding your chosen discipline."
+  },
+  {
+    "id": "selfless",
+    "name": "Selfless",
+    "book": "outgunned",
+    "description_pl": "Zawsze bronisz innych nawet za cenę własnego życia. Jesteś prawdziwym bohaterem! Zyskujesz Darmowy Przerzut przy obronie lub ratowaniu innych, albo gdy działasz bezinteresownie.",
+    "effect": "Gain a Free Re-roll when defending or saving others, or when acting selflessly."
+  },
+  {
+    "id": "shadow",
+    "name": "Shadow",
+    "book": "outgunned",
+    "description_pl": "Nikt cię nie złapie. Jesteś szybki i cichy jak cień. Zyskujesz Darmowy Przerzut przy ukrywaniu się, skradaniu lub śledzeniu kogoś.",
+    "effect": "Gain a Free Re-roll when hiding, sneaking, or tailing someone."
+  },
+  {
+    "id": "silver-tongue",
+    "name": "Silver Tongue",
+    "book": "outgunned",
+    "description_pl": "Twoje słowa mówią głośniej niż czyny, i z pewnością wiesz jak wywinąć się z kłopotów gadaniem. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu skłamanie, przekonanie innych, znalezienie kompromisu lub negocjowanie.",
+    "effect": "Gain a Free Re-roll for all rolls made to lie, to persuade others, to find a compromise, or to bargain."
+  },
+  {
+    "id": "spinout",
+    "name": "Spinout",
+    "book": "outgunned",
+    "description_pl": "Pociągasz hamulec i gwałtownie kręcisz kierownicą. Wszyscy lepiej się trzymajcie. Jako Pełna Tura wszyscy Bohaterowie na prowadzonym przez ciebie pojeździe pomijają swoją Turę Reakcji podczas Pościgu. Rzuć monetą — Orzeł: -1 Prędkości. Reszka: +1 Prędkości.",
+    "effect": "[Full Turn] All Heroes on the ride you are driving skip their Reaction Turn during a Chase. Flip a coin. Heads: -1 Speed. Tails: +1 Speed. Costs 1 Adrenaline."
+  },
+  {
+    "id": "thats-all",
+    "name": "That's All?",
+    "book": "outgunned",
+    "description_pl": "Trudno cię przekonać i jeszcze trudniej zaimponować. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu okazanie odwagi, znoszenie bólu i opieranie się groźbom lub przesłuchaniom.",
+    "effect": "Gain a Free Re-roll for all rolls made to show courage, to withstand pain, and to resist threats or interrogations."
+  },
+  {
+    "id": "too-young-to-die",
+    "name": "Too Young to Die",
+    "book": "outgunned",
+    "description_pl": "Jesteś młody i beztroski. Czujesz, że nic nie może cię powstrzymać. Gdy wypełniasz Złe Pole, nie doznajesz Kondycji. Tę Zdolność możesz wybrać tylko tworząc Młodego Bohatera.",
+    "effect": "When filling in the Bad Box, you suffer no Condition. Can only be gained when creating a Young Hero."
+  },
+  {
+    "id": "ambush",
+    "name": "Ambush",
+    "book": "wok",
+    "description_pl": "Gdy cię zauważają, jest już za późno. Zyskujesz Darmowy Przerzut przy wszystkich Rzutach Akcji mających na celu atak na nieświadome cele bronią do walki w zwarciu lub gołymi rękami.",
+    "effect": "Gain a Free Re-roll for all Action Rolls made to attack unaware targets with melee weapons or bare hands."
+  },
+  {
+    "id": "attack-dog",
+    "name": "Attack Dog",
+    "book": "wok",
+    "description_pl": "Twój pies nigdy nie szczeka, tylko gryzie. Walcząc ramię w ramię z Wytrenowanym Psem, masz Darmowy Przerzut przy wszystkich Rzutach Akcji i Reakcji do walki z Wrogami w Zwarciu lub Bliskim Zasięgu.",
+    "effect": "When fighting side by side with your Trained Dog, have a Free Re-roll for all Action and Reaction Rolls made to fight against Enemies in Melee or Close Range."
+  },
+  {
+    "id": "bad-name",
+    "name": "Bad Name",
+    "book": "wok",
+    "description_pl": "Twoja reputacja wyprzedza cię. Natychmiast zyskujesz Reputację, 1 Złoto, 1$ i 1 Adrenalinę.",
+    "effect": "You immediately gain a Reputation, 1 Gold, 1$ and 1 Adrenaline."
+  },
+  {
+    "id": "beware-of-the-owner",
+    "name": "Beware of the Owner",
+    "book": "wok",
+    "description_pl": "Mogą robić z tobą co chcą, ale lepiej żeby nie dotykali twojego psa. Jako Szybka Akcja, raz na walkę lub scenę, po tym jak twój Wytrenowany Pies straci 1 Grit, natychmiast zyskujesz 1 Adrenalinę.",
+    "effect": "[Quick Action] Once per combat or scene, after your Trained Dog has lost 1 Grit, you immediately gain 1 Adrenaline."
+  },
+  {
+    "id": "catch",
+    "name": "Catch!",
+    "book": "wok",
+    "description_pl": "Machnięciem ręki sygnalizujesz psu, a ten rzuca się do ataku. Jako Szybka Akcja twój Wytrenowany Pies gryzie cel w Bliskim Zasięgu. Cel traci 1 Grit, lub zyskujesz +1 Prędkości podczas pościgu pieszego.",
+    "effect": "[Quick Action] Your Trained Dog bites a target within Close Range. The target loses 1 Grit, or you gain +1 Speed during a chase on foot. Costs 1 Adrenaline."
+  },
+  {
+    "id": "deflect-bullets",
+    "name": "Deflect Bullets",
+    "book": "wok",
+    "description_pl": "Jesteś tak szybki, że możesz nawet przeciąć kulę w locie. Wymaga Zdolności Sword Fighter. Używając miecza, odchylasz grad kul bez rzucania kośćmi. Rzuć monetą — Orzeł: rikoszerujesz jedną kulę z powrotem do strzelca, a Wróg traci 1 Grit.",
+    "effect": "Requires Sword Fighter Feat. Using your sword, deflect a hail of bullets without rolling dice. Flip a coin. Heads: Ricochet one bullet back to the shooter, Enemy loses 1 Grit. Costs 1 Adrenaline."
+  },
+  {
+    "id": "determination",
+    "name": "Determination",
+    "book": "wok",
+    "description_pl": "Twojej wewnętrznej siły nie można zachwiać. Wykonaj Rzut Reakcji dowolnego rodzaju używając Endure+1 zamiast wymaganej Umiejętności.",
+    "effect": "Make a Reaction Roll of any kind using Endure +1 instead of the required Skill. Costs 1 Adrenaline."
+  },
+  {
+    "id": "elegance",
+    "name": "Elegance",
+    "book": "wok",
+    "description_pl": "Kiedy przechodzisz obok, wszyscy się zatrzymują i patrzą. Klasa! Zyskujesz Darmowy Przerzut przy wszystkich rzutach dotyczących wysokiego towarzystwa, demonstrowania wyszukanych manier lub gdy przypominasz sobie zasady etykiety.",
+    "effect": "Gain a Free Re-roll for all rolls involving high society, showing off your refined manners, or when recalling the rules of etiquette."
+  },
+  {
+    "id": "endure-pain",
+    "name": "Endure Pain",
+    "book": "wok",
+    "description_pl": "Żaden ból! Usuń jedną Kondycję od siebie. W ten sposób nie możesz usunąć Kondycji Złamany.",
+    "effect": "Remove one Condition from yourself. Cannot remove the Broken Condition this way. Costs 1 Adrenaline."
+  },
+  {
+    "id": "expedient",
+    "name": "Expedient",
+    "book": "wok",
+    "description_pl": "Zawsze wiesz jak sobie poradzić. Wykonaj Rzut Akcji lub Reakcji dowolnego rodzaju używając Streetwise zamiast wymaganej Umiejętności.",
+    "effect": "Make an Action or Reaction Roll of any kind using Streetwise instead of the required Skill. Costs 1 Adrenaline."
+  },
+  {
+    "id": "feint",
+    "name": "Feint",
+    "book": "wok",
+    "description_pl": "Walczysz głową, nie tylko rękoma. Powtórz Rzut Akcji przeciwko Wrogowi, ignorując wszystkie Kondycje.",
+    "effect": "Repeat an Action Roll against an Enemy, ignore all Conditions. Costs 1 Adrenaline."
+  },
+  {
+    "id": "gun-fu",
+    "name": "Gun Fu",
+    "book": "wok",
+    "description_pl": "Twój unikalny styl walki to mieszanka strzałów z bliska i sztuk walki. Tak cool. Walcząc załadowanym pistoletem lub rewolwerem, masz Darmowy Przerzut przy wszystkich Rzutach Akcji i Reakcji do walki z Wrogami w Zwarciu lub Bliskim Zasięgu.",
+    "effect": "When fighting with a loaded pistol or revolver, have a Free Re-roll for all Action and Reaction Rolls made to fight against Enemies in Melee or Close Range."
+  },
+  {
+    "id": "leap",
+    "name": "Leap",
+    "book": "wok",
+    "description_pl": "Jakoś zawsze lądujesz na miękkim. Skacząc z dowolnej wysokości lądujesz bez konsekwencji. Dodatkowo, gdy skaczysz na Wrogów atakując ich z góry, zawsze masz +1.",
+    "effect": "Jump from any height, land without consequences. When jumping onto Enemies to attack from up high, always have +1. Costs 1 Adrenaline."
+  },
+  {
+    "id": "live-and-learn",
+    "name": "Live and Learn",
+    "book": "wok",
+    "description_pl": "Wiesz jak uczyć się na błędach. Szczególnie cudzych. Po tym jak inny Bohater nie powiódł się w rzucie, automatycznie udajesz się w tym samym rzucie bez rzucania kośćmi.",
+    "effect": "After another Hero has failed a roll, you automatically succeed in the same roll without rolling the dice. Costs 1 Adrenaline."
+  },
+  {
+    "id": "pass-the-buck",
+    "name": "Pass the Buck",
+    "book": "wok",
+    "description_pl": "Mylić się jest rzeczą ludzką, ale tylko frajerzy płacą własne konsekwencje. Przyjaciel ponosi konsekwencje twojego niepowodzenia zamiast ciebie.",
+    "effect": "A friend suffers the consequences of a failure instead of you. Costs 1 Adrenaline."
+  },
+  {
+    "id": "rescue",
+    "name": "Rescue",
+    "book": "wok",
+    "description_pl": "Twój pies wkracza w ostatniej chwili, żeby wyciągnąć cię z tarapatów. Twój Wytrenowany Pies zapobiega temu, by Bohater doznał Kondycji Złamany, lub ratuje Bohatera który przegrał obrót na Ruletce Śmierci. Uratowany Bohater i tak dodaje Śmiercionośną Kulę do swojej ruletki.",
+    "effect": "Your Trained Dog prevents a Hero from suffering the Broken Condition, or saves a Hero who lost their spin on the Death Roulette. The rescued Hero adds a Lethal Bullet to their roulette as usual. Costs 1 Adrenaline."
+  },
+  {
+    "id": "savoir-faire",
+    "name": "Savoir Faire",
+    "book": "wok",
+    "description_pl": "Przez wszystkie trudności przechodzisz z wdziękiem i dobrymi manierami. Wykonaj Rzut Akcji lub Reakcji dowolnego rodzaju używając Style zamiast wymaganej Umiejętności.",
+    "effect": "Make an Action or Reaction Roll of any kind using Style instead of the required Skill. Costs 1 Adrenaline."
+  },
+  {
+    "id": "sniffer",
+    "name": "Sniffer",
+    "book": "wok",
+    "description_pl": "Nic nie umknie hiperwyszkolonemu nosowi twojego psa. Zyskujesz Darmowy Przerzut przy wszystkich rzutach mających na celu podążanie śladem lub wykrywanie zasadzki Wroga, gdy jesteś ze swoim Wytrenowanym Psem. Jako Szybka Akcja możesz wydać 1 Adrenalinę, żeby znaleźć Słabe Miejsce Wroga.",
+    "effect": "Gain a Free Re-roll for all rolls to follow a trail or detect an enemy ambush while with your Trained Dog. As a Quick Action, spend 1 Adrenaline to find an Enemy's Weak Spot."
+  },
+  {
+    "id": "sword-fighter",
+    "name": "Sword Fighter",
+    "book": "wok",
+    "description_pl": "W świecie pełnym broni palnej zdecydowałeś się być tym z mieczem. Zyskujesz Darmowy Przerzut przy korzystaniu, naprawianiu, ocenianiu lub obsługiwaniu miecza lub innej broni do walki wręcz.",
+    "effect": "Gain a Free Re-roll when using, repairing, evaluating, or handling a sword or another melee weapon."
+  },
+  {
+    "id": "vanish",
+    "name": "Vanish",
+    "book": "wok",
+    "description_pl": "Teraz cię widzą. Teraz nie widzą. Jako Szybka Akcja wychodzisz z niebezpiecznej lub niekomfortowej sytuacji, albo porzucasz pościg lub walkę bez konieczności rzucania kośćmi. Możesz wydać 1 dodatkową Adrenalinę, by pojawić się w innym miejscu w Średnim Zasięgu.",
+    "effect": "[Quick Action] Get out of a dangerous or uncomfortable situation, or abandon a chase or combat without rolling dice. Spend 1 additional Adrenaline to reappear in another position within Medium Range. Costs 1 Adrenaline."
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "book": "wok",
+    "description_pl": "Kiedy robi się gorąco, twardzi zaczynają obracać ostrzami. Wymaga Zdolności Sword Fighter. Po trafieniu Wroga bronią do walki wręcz, możesz wykonać drugi Rzut Akcji z -1. Nie masz Darmowego Przerzutu na ten rzut.",
+    "effect": "Requires Sword Fighter Feat. After striking an Enemy with a Melee weapon, make a second Action Roll with -1. No Free Re-roll for this roll. Costs 1 Adrenaline."
+  }
+]
