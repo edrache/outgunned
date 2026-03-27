@@ -28,6 +28,12 @@ def fill_pdf(character: dict, output_path: Path) -> None:
         raise ValueError(f"PDF field mapping for {book!r} is empty.")
 
     pdf_path = ROOT_DIR / book_map["pdf_path"]
+    if not pdf_path.exists():
+        raise ValueError(
+            "Required local PDF asset is missing: "
+            f"{pdf_path}. Place the source sheets in the PDF/ directory before using fill-pdf."
+        )
+
     reader = PdfReader(str(pdf_path))
     writer = PdfWriter()
     writer.append(reader)
